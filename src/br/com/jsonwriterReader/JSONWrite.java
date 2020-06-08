@@ -1,4 +1,4 @@
-package br.com.jsonwriter;
+package br.com.jsonwriterReader;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -21,7 +21,7 @@ public class JSONWrite {
 		
 		
 		try {
-			writeFile = new FileWriter("saida.json");
+			writeFile = new FileWriter("C:/Users/felipe.a.januario/Desktop/saida.json");
 			writeFile.write(jsonObject.toString());
 			writeFile.close();
 			
